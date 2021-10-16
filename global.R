@@ -8,7 +8,9 @@ library(leaflet)
 
 
 # Read dataframe 
-df <- readRDS("./data/ships.RDS")
+df <- readRDS("./data/df_sample.RDS")
+# df_sample <- df %>% dplyr::slice(1:1000000)
+# saveRDS(df_sample, "data/df_sample.RDS")
 # df <- read.csv("./data/ships.csv") %>% tibble::as_tibble()
 
 
